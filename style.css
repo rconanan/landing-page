@@ -7,21 +7,27 @@
 
 .header {
   background: #1f2937;
+  padding: 24px;
+}
+
+.header-container {
+  margin: 0 215px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px;
 }
 
 .header-logo {
   font-size: 24px;
   color: #f9faf8;
   font-weight: bold;
+  margin-left: 37px;
 }
 
 ul {
-  display: flex;
   gap: 12px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 li {
@@ -31,4 +37,48 @@ li {
 a {
   text-decoration: none;
   color: #f9faf8;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  align-items: center;
+  justify-content: center;
+  padding: 42px;
+  background: #1f2937;
+}
+
+.left-hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 1000px;
+  gap: 24px;
+}
+
+img {
+  width: 400px;
+  height: 250px;
+  border-radius: 5%;
+}
+
+.primary-heading {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 800;
+}
+
+.primary-subheading {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.btn-primary {
+  border: 1px solid #3882f6;
+  padding: 8px 16px;
+  border-radius: 8px;
+  width: 100px;
+  background-color: #3882f6;
+  color: white;
 }
