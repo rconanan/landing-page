@@ -11,8 +11,9 @@
 }
 
 .header-container {
-  margin: 0 215px;
+  margin: 0 auto;
   display: flex;
+  flex: auto;
   justify-content: space-between;
   align-items: center;
 }
@@ -21,7 +22,6 @@
   font-size: 24px;
   color: #f9faf8;
   font-weight: bold;
-  margin-left: 37px;
 }
 
 ul {
@@ -41,6 +41,7 @@ a {
 
 .hero-section {
   display: flex;
+  flex: auto;
   flex-direction: row;
   gap: 48px;
   align-items: center;
@@ -50,10 +51,11 @@ a {
 }
 
 .left-hero {
+  width: 400px;
   display: flex;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-direction: column;
-  width: 1000px;
   gap: 24px;
 }
 
@@ -81,4 +83,53 @@ img {
   width: 100px;
   background-color: #3882f6;
   color: white;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+  gap: 48px;
+}
+
+.secondary-heading {
+  margin: 24px auto;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.portraits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+
+.portrait-1,
+.portrait-2,
+.portrait-3,
+.portrait-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 150px;
+}
+
+.portrait-1 img,
+.portrait-2 img,
+.portrait-3 img,
+.portrait-4 img {
+  width: 130px;
+  height: 130px;
+  border: 2px solid #3882f6;
+  border-radius: 10%;
+}
+
+.text {
+  text-align: center;
 }
