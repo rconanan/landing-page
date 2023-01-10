@@ -80,7 +80,7 @@ img {
   border: 1px solid #3882f6;
   padding: 8px 16px;
   border-radius: 8px;
-  width: 100px;
+  width: 150px;
   background-color: #3882f6;
   color: white;
 }
@@ -105,7 +105,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 64px;
+  gap: 48px;
 }
 
 .portrait-1,
@@ -132,5 +132,73 @@ img {
 
 .text {
   text-align: center;
+  font-size: 14px;
   color: #1f2937;
+}
+
+.figure-container {
+  background: #e5e7eb;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial {
+  display: flex;
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+  color: #1f2937;
+}
+
+.testimonial-review {
+  line-height: 1.5;
+  font-size: 24px;
+  width: 650px;
+  font-weight: lighter;
+}
+
+figcaption {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 4px;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.cta-section {
+  padding: 70px;
+}
+
+.cta-container {
+  padding: 48px;
+  background-color: #3882f6;
+  width: 900px;
+  border-radius: 10px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.cta-left {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 14px;
+  gap: 4px;
+}
+
+.btn-secondary {
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: 150px;
+  background-color: #3882f6;
+  color: white;
 }
