@@ -78,7 +78,7 @@ img {
 
 .btn-primary {
   border: 1px solid #3882f6;
-  padding: 8px 16px;
+  padding: 8px 8px;
   border-radius: 8px;
   width: 150px;
   background-color: #3882f6;
@@ -177,7 +177,7 @@ figcaption {
 .cta-container {
   padding: 48px;
   background-color: #3882f6;
-  width: 900px;
+  width: 800px;
   border-radius: 10px;
   display: flex;
   margin: 0 auto;
@@ -191,12 +191,12 @@ figcaption {
   flex-direction: column;
   justify-content: center;
   margin-right: 14px;
-  gap: 4px;
+  gap: 6px;
 }
 
 .btn-secondary {
   border: 1px solid white;
-  padding: 10px 20px;
+  padding: 8px 8px;
   border-radius: 8px;
   width: 150px;
   background-color: #3882f6;
