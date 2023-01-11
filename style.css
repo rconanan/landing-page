@@ -202,3 +202,16 @@ figcaption {
   background-color: #3882f6;
   color: white;
 }
+
+.footer {
+  background-color: #1f2937;
+  padding: 24px;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f9faf8;
+  font-size: 12px;
+}
