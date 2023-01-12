@@ -177,7 +177,7 @@ figcaption {
 .cta-container {
   padding: 48px;
   background-color: #3882f6;
-  width: 800px;
+  min-width: 800px;
   border-radius: 10px;
   display: flex;
   margin: 0 auto;
