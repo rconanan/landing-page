@@ -174,10 +174,14 @@ figcaption {
   padding: 70px;
 }
 
+.cta-subtext {
+  font-size: 16px;
+}
+
 .cta-container {
-  padding: 48px;
+  padding: 38px;
   background-color: #3882f6;
-  width: 800px;
+  width: 750px;
   border-radius: 10px;
   display: flex;
   margin: 0 auto;

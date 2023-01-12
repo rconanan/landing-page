@@ -7,3 +7,5 @@ Still need to work on adding certain Flex Properties.
 All is used is HTML, CSS with Flexbox!
 
 Images are from Unsplash and loremfaces.
+
+Update: Landing Page complete!
