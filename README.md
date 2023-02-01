@@ -4,8 +4,8 @@ Finished my Final Draft on 1/10/2023
 
 Still need to work on adding certain Flex Properties.
 
-All is used is HTML, CSS with Flexbox!
+All is used is HTML, CSS and Flexbox!
 
 Images are from Unsplash and loremfaces.
 
-Update: Landing Page complete!
+Update: Change name of Landing Page project.
